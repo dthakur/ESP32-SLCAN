@@ -538,7 +538,7 @@ void setup()
   Serial.println(ser_speed);
 
   //Serial.println("CAN demo");
-  CAN_cfg.speed=CAN_SPEED_250KBPS;
+  CAN_cfg.speed=CAN_SPEED_500KBPS;
   CAN_cfg.tx_pin_id = GPIO_CAN_TX;
   CAN_cfg.rx_pin_id = GPIO_CAN_RX;
   CAN_cfg.rx_queue = xQueueCreate(10,sizeof(CAN_frame_t));
