@@ -38,7 +38,7 @@ Preferences prefs;        // by JG
 boolean working           = false;
 boolean timestamp         = false;
 boolean cr                = false;
-int can_speed             = 250;
+int can_speed             = 500;
 static int ser_speed      = 115200;
 
 #ifdef BT_SERIAL
